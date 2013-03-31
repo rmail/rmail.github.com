@@ -1,0 +1,37 @@
+<!--
+Rmail.im demo
+
+Code minimal pour l'intégration du chat dans une page web
+
+-->
+<!DOCTYPE html>
+<html lang="fr">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Rmail.im chat demo</title>
+<!--
+JQuery et strophe.js sont requis pour utiliser le chat rmail.im
+-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://rmail.im/static/js/strophe.min.js"></script>
+<!--
+Intégration du chat
+L'URL diffère pour chaque chat, Utilisez le code fourni (http://rmail.im/account)
+-->
+    <script src="http://rmail.im/snippets/freebeta/demo"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Rmail.im chat demo</h1>
+      <p><a href="/demo/docs/">Code source</a></p>
+    </header>
+<!--
+Le chat prend place dans ce div.
+Placez le à l'endroit de la page ou vous souhaitez voir apparaître le chat.
+-->
+    <div id="room"></div>
+  </body>
+
+</html>
