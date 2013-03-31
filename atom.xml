@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Rmail.im documentation]]></title>
+  <link href="http://rmail.github.com/atom.xml" rel="self"/>
+  <link href="http://rmail.github.com/"/>
+  <updated>2013-03-31T18:30:38+02:00</updated>
+  <id>http://rmail.github.com/</id>
+  <author>
+    <name><![CDATA[Damien JEGOU]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
